@@ -301,7 +301,7 @@
                     </div>
                 </div>
 
-                <div id="callout-text">
+                <div class="callout-text">
                     Knoll Textiles was founded in 1947  by Florence Knoll, an American architect, interior designer, and leading figure of modern design who pioneered the concept of integrated architectural and design services.
                 </div>
 
@@ -342,7 +342,7 @@
             </div>
                     </div>
 
-                    <div id="callout-text-right">
+                    <div class="callout-text-right" id="first-callout">
                         After completing her studies in Chicago, Florence Schust moves to New York to work as an architect. While working on an interior design project she meets Hans Knoll, who, recognizing a shared ambition, hires Florence to moonlight on various interior projects for his company.
                     </div>
                    
@@ -435,6 +435,9 @@
     <div id="collaborator-rule"></div>
     <div id="collab-title">
      Early Collaborators
+    </div>
+    <div id="seemore">
+        Scroll to see more→
     </div>
     <div id="collaborators-scroll">
     <div id="earlycollaborators">
@@ -529,8 +532,55 @@ Evelyn Hill develops a line of architecturally-inspired handwoven fabrics for Kn
         Weaver Paul Maute designs his first textiles for Knoll after producing fabrics for the company in his weaving workshop since the 1950s.
     </div>
 </div>
-        </div>        
+        </div>      
+        
+        <div id="eventblock" class="six">
+            <div id="left">
+                <div class="year-rule-header">
+                    <div id="year-rule"></div>
+                    <div id="year">
+                        1965
+                </div>
+                </div>
+                <div id="event-text">
+                    After more than 20 years of continuous innovation and industry leadership, Florence Knoll Bassett retires from the company.
+                </div>
+        </div>
+    
+        <div id="right">
+            <img id="half-width-img" class="parallaxImage" src="../images/florence_knoll_2.jpg">
+    </div>
+            </div>      
             
+            <div class="callout-text" id="second-callout" style="margin-top: 200px !important;">
+                “She had that ability, to critique [something], to tear it apart and put it back together. She was something else.”<br>—Bob Longwell
+            </div>
+
+            <div id="eventblock" class="seven">
+                <div id="left">
+                    <div class="year-rule-header">
+                        <div id="year-rule"></div>
+                        <div id="year">
+                            1974
+                    </div>
+                    </div>
+                    <div id="event-text">
+                    <strong>Eclat</strong><br><br>
+                    Knoll introduces Eclat by world renowned textile designer Anni Albers. Albers’ design philosophy is to ground the pattern with order but not in an obvious manner.
+
+                    </div>
+            </div>
+        
+            <div id="right">
+                <img id="half-width-img" class="parallaxImage" src="../images/eclat.jpg">
+                <div style="display: flex; justify-content: space-between; width: 92%;">
+                <p id="caption">Eclat by Anni Albers</p>
+                <p id="caption">1/2→</p>
+
+
+                </div>
+        </div>
+                </div>  
         </div>
 
         <footer class="container footer-content social">
@@ -651,10 +701,18 @@ Evelyn Hill develops a line of architecturally-inspired handwoven fabrics for Kn
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
 
         
 <script>
+
+ScrollReveal().reveal('#first-callout', {
+     duration: 3000
+    });
+ScrollReveal().reveal('#second-callout', {
+     duration: 3000
+    });
 
 var parallax = document.getElementsByClassName('parallaxImage');
 new simpleParallax(parallax, {

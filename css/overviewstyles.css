@@ -107,7 +107,7 @@ strong{
     to {transform: translateX(-50%)}
   }
 
-  #callout-text{
+  .callout-text{
     font-size: 40px;
     font-family: 'KTFold-Medium';
     line-height: 1.2;
@@ -116,7 +116,7 @@ strong{
     width: 80%;
   }
 
-  #callout-text-right{
+  .callout-text-right{
     font-size: 40px;
     font-family: 'KTFold-Medium';
     line-height: 1.2;
@@ -264,9 +264,17 @@ font-family: 'KTFold-Regular';
     display: block;
   }
 
+  .six{
+    margin-top: 100px;
+  }
+
+  .seven{
+    margin-top: 200px;
+  }
+
   .collaborator{
     width: 48%;
-    margin-top: 14vh;
+    margin-top: 1vh;
 
   }
 
@@ -402,3 +410,19 @@ background-color: transparent;
         margin-top: 10px;
     }
 
+    ::-webkit-scrollbar{
+        background: #ffffff;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #000000; 
+      }
+
+
+      #seemore{
+        font-family: 'KTFold-Regular';
+        font-size: 12px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+        margin-left: 90%;
+      }
