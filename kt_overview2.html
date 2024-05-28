@@ -292,33 +292,26 @@
                 <img id="fullwidth" style="margin-top: 0 !important;" src="./images/_DSF4173.jpg">
 
 
-                <div class="callout-text" style="margin-top: 60px;">
-                    Knoll Textiles was founded in 1947  by Florence Knoll, an American architect, interior designer, and leading figure of modern design who pioneered the concept of integrated architectural and design services.
+                <div id="reveal-callout" class="callout-text" style="margin-top: 60px;">
+                    Honoring the pioneering architectural spirit in which it was founded, Knoll Textiles designs textiles for the contemporary interior with a focus on utility, traditional weaving, technical innovation, and collaboration. 
                 </div>
-                <img id="medium-img-left" class="parallaxImage" src="./images/_DSF4011.jpg">
+                <img id="medium-img-left" class="parallaxImage reveal-image" src="./images/_DSF4011.jpg">
                 <p id="caption">Knoll Textiles Design Studio by Nick Ballon, 2023</p>
-                <div class="callout-text">
-                    Embracing Florence’s holistic view of textiles as key elements of any interior, Knoll Textiles became an industry leader in material experimentation and innovation—recruiting master weavers and artists to establish a collection that explored layered materiality, graphic pattern, and tailored constructions.
+                <div id="reveal-callout" class="callout-text">
+                    The design studio explores archival and contemporary expressions of Knoll Textiles’ founding values to develop textiles in meaningful dialogue with their surroundings.
                 </div>
 
                 <div id="medium-img-right">
-                <img class="parallaxImage" src="./images/_DSF3842.jpg">
+                <img class="parallaxImage reveal-image" src="./images/_DSF3842.jpg">
                 <p id="caption">Classic Bouclè, Nick Ballon, 2023</p>
                 </div>
 
                 <div id="full-width">
-                    <img  id="full-width-img" class="parallaxImage" src="./images/_DSF4140.jpg">
+                    <img  id="full-width-img" class="parallaxImage reveal-image" src="./images/_DSF4140.jpg">
                     <p id="caption">Knoll Textiles Design Studio by Nick Ballon, 2023</p>
                 </div>
 
-                <div class="callout-text" style="margin-top: 180px;">
-                    “Good design is the sum of a designer’s experience. It results from the ability to analyze and solve problems by organized thinking and imagination.”<br><br>—Florence Knoll
-                </div>
-                <div id="full-width">
-                    <img id="full-width-img" class="parallaxImage" src="./images/florence_knoll.jpg" style="margin-top: 0px !important;">
-                </div>
-
-                <div id="scrolling-container">
+                <div id="scrolling-container" style="margin-top: 200px; margin-bottom: -200px;">
                     <div id="full-width-rule"></div>
                     <div class="horizontal-scrolling-items">
                     <div class="horizontal-scrolling-items__item"> <h2>Florence Knoll &nbsp</h2></div>
@@ -328,21 +321,35 @@
                     </div>
                 </div>
 
+                <div id="full-width">
+                    <img id="full-width-img" class="parallaxImage reveal-image" src="./images/florence_knoll.jpg" style="margin-top: 0px !important;">
+                </div>
+
+                <div id="reveal-callout" class="callout-text" style="margin-top: 40px;">
+                    Knoll Textiles was founded in 1947 by Florence Knoll, an American architect, interior designer, and leading figure of modern design who pioneered the concept of integrated architectural and design services.
+                </div>
+
+               
+
                 <div id="eventblock" class="one">
                     <div id="left">
         
                     </div>
                     <div id="right">
-                    <img id="half-width-img" class="parallaxImage" src="./images/hans_knoll.jpg">
+                    <img id="half-width-img" class="parallaxImage reveal-image" src="./images/hans_knoll.jpg">
                     <p id="caption">Hans G.Knoll Furniture Company established 1938.</p>
                     </div>
                 </div>
 
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js'></script>
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js'></script>
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js'></script>
 
+                
                 <div id="scroll-seemore">
-                    Scroll to See More→
+                   
                 </div>
-                <div id="horizontal-img-scroll" class="first">
+                <div id="horizontal-img-scroll">
                 <div>
                 <img src="./images/c3_p.jpg">
                 <p id="caption">Florence at Cranbrook Academy ca.1933, <em>Cranbrook Archives Digital Collection</em></p>
@@ -364,13 +371,13 @@
                 </div>
 
 
-            <img id="left-half-img" class="parallaxImage" src="./images/hansandflorence.jpg">
+            <img id="left-half-img" class="parallaxImage reveal-image" src="./images/hansandflorence.jpg">
             <p id="caption">Hans and Florence Knoll are married in 1946.</p>
 
-            <div class="callout-text">
+            <div id="reveal-callout" class="callout-text">
                 Heading Knoll Associates, Inc. with her husband Hans Knoll, Florence established Knoll’s textiles division with an aim of creating textiles as modern as the furniture and spaces she was designing for the company.</div>
 
-                <img id="large-img-right" class="parallaxImage" src="./images/planning_unit.jpg">
+                <img id="large-img-right" class="parallaxImage reveal-image" src="./images/planning_unit.jpg">
                 <p id="caption" style="margin-left: 16%;">Florence founds the Knoll Planning Unit, ca.1946.</p>
         
 
@@ -392,8 +399,8 @@
                         <div style="display: flex; justify-content: space-between;">
                             <p id="caption">The CBS Offices by Florence Knoll completed in 1965</p>
                             <div class="slick-controls">
-                            <button id="prevarrow">←</button>
-                            <button id="nextarrow">→</button>
+                                <button class="prevarrow">←</button>
+                                <button class="nextarrow">→</button>
                             </div>
                             </div>
                         </div>
@@ -402,8 +409,8 @@
                             <div style="display: flex; justify-content: space-between;">
                                 <p id="caption">The CBS Offices by Florence Knoll completed in 1965</p>
                                 <div class="slick-controls">
-                                <button id="prevarrow">←</button>
-                                <button id="nextarrow">→</button>
+                                    <button class="prevarrow">←</button>
+                                    <button class="nextarrow">→</button>
                                 </div>
                                 </div>
                             </div>
@@ -412,8 +419,8 @@
                                 <div style="display: flex; justify-content: space-between;">
                                     <p id="caption">The CBS Offices by Florence Knoll completed in 1965</p>
                                     <div class="slick-controls">
-                                    <button id="prevarrow">←</button>
-                                    <button id="nextarrow">→</button>
+                                        <button class="prevarrow">←</button>
+                                        <button class="nextarrow">→</button>
                                     </div>
                                     </div>
                    
@@ -421,11 +428,11 @@
                 </div>
 
             <div>
-            <img id="left-half-img" class="parallaxImage" src="./images/florence_knoll_2.jpg">
+            <img id="left-half-img" class="parallaxImage reveal-image" src="./images/florence_knoll_2.jpg">
             <p id="caption" style="width: 35%;">Florence Knoll Bassett retires from the company after 20 years, ca. 1965, <em>Knoll Archives</em></p>
             </div>
 
-            <div class="callout-text-right">
+            <div id="reveal-callout" class="callout-text-right">
                 “She had that ability, to critique [something], to tear it apart and put it back together. She was something else.”<br><br>—Bob Longwell
             </div>
         
@@ -450,19 +457,63 @@
                 </div>
             </div>
 
-            <div>
+            <div class="slick-carousel" style="margin-top: -120px;">
+                <div>
             <img id="left-half-img" src="./images/Anni-Albers(Photographer Nancy Newhall).jpg">
-            <p id="caption" style="width: 35%;">In 1951, Florence Knoll invited Albers to collaborate with the Knoll Textiles Department,<em>Knoll Archives</em></p>
+            <div style="width: 60%; display: inline-flex;">
+            <p id="carousel-caption">In 1951, Florence Knoll invited Albers to collaborate with the Knoll Textiles Department,<em>Knoll Archives</em></p>
+
+            <div id="arrows" class="slick-controls-two">
+                <button class="prevarrow">←</button>
+                <button class="nextarrow">→</button>
+                </div>
+                </div>
             </div>
-            <div style="margin-top: -400px;">
+            <div>
+            <img id="left-half-img" src="./images/eclat.jpg">
+            <div style= "width: 60%; display: inline-flex;">
+            <p id="carousel-caption"><em>Eclat</em> by Anni Albers for Knoll Textiles</p>
+            
+            <div id="arrows" class="slick-controls-two">
+                <button class="prevarrow">←</button>
+                <button class="nextarrow">→</button>
+                </div>
+            </div>
+            </div>
+            </div>
+
+
+            <div style="margin-top: -400px;" class="slick-carousel">
+                <div>
                 <img id="right-half-img" src="./images/sheila-hicks.jpg">
-                <p id="caption-right" style="width: 35%;">In 1966, Sheila Hicks collaborated with Knoll International to produce Inca,<em>Knoll Archives</em></p>
+                <div style="width: 60%; display: inline-flex;margin-left: 54%;">
+                <p id="carousel-caption">In 1966, Sheila Hicks collaborated with Knoll International to produce Inca,<em>Knoll Archives</em></p>
+                <div id="arrows" class="slick-controls-three">
+                    <button class="prevarrow">←</button>
+                    <button class="nextarrow">→</button>
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <img id="right-half-img" src="./images/inca.jpg">
+                    <div style="width: 60%; display: inline-flex;margin-left: 54%">
+                    <p id="carousel-caption">In 1966, Sheila Hicks collaborated with Knoll International to produce Inca,<em>Knoll Archives</em></p>
+                    <div id="arrows" class="slick-controls-three">
+                        <button class="prevarrow">←</button>
+                        <button class="nextarrow">→</button>
+                        </div>
+                    </div>
+                    </div>
                 </div>
 
+            <div id="reveal-callout" class="callout-text" style="margin-top: 250px;">
+                Florence championed the practice of design collaboration by working with the leading creative minds of the 20th century—from weaver Anni Albers to graphic designer Herbert Matter. 
+            </div>
+
                 <div id="scroll-seemore">
-                    Scroll to See More→
+
                 </div>
-                <div id="horizontal-img-scroll" class="first">
+                <div id="horizontal-img-scroll-two">
                 <div>
                 <img src="./images/noemi_raymond.jpg">
                 <p id="caption">Noémi Raymond*</p>
@@ -491,15 +542,168 @@
                     <img src="./images/suzanne_huguenin.jpg">
                     <p id="caption">Suzanne Huguenin</p>
                     </div>
-
                 <div>
                 <img src="./images/nylon_homespun.jpg">
                 <p id="caption">Nylon Homespun by Suzanne Huguenin ca.1965, for Knoll Textiles</p>
                 </div>
                 </div>
 
+            <div class="slick-carousel">
+            <div>
+            <img id="medium-img-left" class="parallaxImage reveal-image" src="./images/kt_moma_1.png">
+            <div style= "width: 87%; display: inline-flex;">
+                <p id="carousel-caption">Knoll Textiles for "Textiles U.S.A" exhibition at the MOMA, ca.1956, <em>MOMA</em></p>
+                
+                <div id="arrows" class="slick-controls-two">
+                    <button class="prevarrow">←</button>
+                    <button class="nextarrow">→</button>
+                    </div>
+                </div>
+                </div>
+                <div>
+            <img id="medium-img-left" class="parallaxImage reveal-image" src="./images/kt_moma_2.png">
+            <div style= "width: 87%; display: inline-flex;">
+            <p id="carousel-caption">Knoll Textiles for "Textiles U.S.A" exhibition at the MOMA, ca.1956, <em>MOMA</em></p>
+                        
+            <div id="arrows" class="slick-controls-two">
+            <button class="prevarrow">←</button>
+            <button class="nextarrow">→</button>
+            </div>
+        </div>
+    </div>
+    <div>
+            <img id="medium-img-left" class="parallaxImage reveal-image" src="./images/kt_moma_3.png">
+            <div style= "width: 87%; display: inline-flex;">
+            <p id="carousel-caption">Knoll Textiles for "Textiles U.S.A" exhibition at the MOMA, ca.1956, <em>MOMA</em></p>
+                                
+            <div id="arrows" class="slick-controls-two">
+            <button class="prevarrow">←</button>
+            <button class="nextarrow">→</button>
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="page-breaker-two">
+                <div class="ktsection js-sections">
+                </div>
+                
+                <div class="ktsection js-sections">
+                </div>
+              </div>  
+
+
+              <div id="full-width">
+            <img id="full-width-img" class="parallaxImage reveal-image" src="./images/TextilesAdvertisement.jpg">
+            <p id="caption" style="width: 35%;">Herbert Matter advertisement for Knoll Associates, Inc. Herbert Matter, ca.1965, featuring <em>York</em></p>
+            </div>
+
+            <img id="right-half-img" class="parallaxImage reveal-image" src="./images/KT_23b_HerbertMatterAd_IG.jpg">
+            <p id="caption-right" style="width: 35%;">Matter advertisement for Knoll Associates, Inc., 1965, featuring an assortment of Knoll Textiles.
+            </p>
+
+            <img id="medium-img-left" class="parallaxImage reveal-image" src="./images/Herbert-Matter-Collage-1060.jpg">
+            <p id="caption" style="width: 35%;">Collage for KnollTextiles by Herbert Matter</p>
+
+            <div id="reveal-callout" class="callout-text-right">
+                “Herbert Matter was the graphic designer for Knoll. He gave it visual identity in all phases of the printed material…His advertisements were striking, and clearly gave the visual message at a glance with minimal text and occasionally with wry humor.”<br><br>—Florence Knoll
+            </div>
+
+            <div style="margin-top: 150px;">
+                <img id="right-half-img" class="parallaxImage reveal-image" src="./images/INSP_matter_8.jpg">
+                <p id="caption-right" style="width: 35%;">In 1966, Sheila Hicks collaborated with Knoll International to produce Inca,<em>Knoll Archives</em></p>
+                </div>
+
+             <div style="margin-top: -400px;">
+            <img id="left-half-img" class="parallaxImage reveal-image" src="./images/drum_ad.jpg">
+            <p id="caption" style="width: 35%;">Advertisement for Knoll Associates,Inc. Herbert Matter,ca.1954. Featuring Eszter Haraszty's <em>Fibra</em> and <em>Triad</em> among other textiles<em>Knoll Archives</em></p>
+             </div>
+
+             <div style="margin-top: -350px;">
+                <img id="right-half-img" class="parallaxImage reveal-image" src="./images/KT-1202.jpg">
+                <p id="caption-right" style="width: 35%;">Knoll Textiles envelope, designed by Takaaki Matsumoto, ca.1985<em>Knoll Archives</em></p>
+                </div>
+            
+
+            <div id="full-width-carousel" class="slick-carousel">
+            <div>
+            <img id="full-width" src="./images/vignelli_kt.jpg">
+            <div style="width: 100%; display: inline-flex;">
+            <p id="fullwidth-caption">"Knoll Textiles Handwoven Collection" Sample Kit ca.1967 by Lella Vignelli,<em> Brooklyn Museum</em></p>
+            <div class="slick-controls-four">
+                <button class="prevarrow">←</button>
+                <button class="nextarrow">→</button>
+                </div>
+                </div>
+            </div>
+            <div>
+            <img id="full-width" src="./images/knolltextiles_cotton_velvetmassimo_vignelli.jpg">
+            <div style="width: 100%; display: inline-flex;">
+                <p id="fullwidth-caption">"Knoll Textiles Handwoven Collection" Sample Kit ca.1967 by Lella Vignelli,<em> Brooklyn Museum</em></p>
+                <div class="slick-controls-four">
+                    <button class="prevarrow">←</button>
+                    <button class="nextarrow">→</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+
+            <div id="scrolling-container" style="margin-top: 650px;">
+                <div id="full-width-rule"></div>
+                <div class="horizontal-scrolling-items">
+                <div class="horizontal-scrolling-items__item"> <h2>Lasting Legacy &nbsp</h2></div>
+                <div class="horizontal-scrolling-items__item"> <h2 class="outline">Lasting Legacy &nbsp</h2></div>
+                <div class="horizontal-scrolling-items__item"> <h2>Lasting Legacy &nbsp</h2></div>
+                <div class="horizontal-scrolling-items__item"> <h2 class="outline">Lasting Legacy &nbsp</h2></div>
+                </div>
+            </div>
+
+            <div id="reveal-callout" class="callout-text" style="margin-top: -18px;">
+                Embracing Florence Knoll’s holistic and visionary design values, Knoll Textiles continues to explore color, layered materiality, and tailored constructions through a collection of new textiles alongside faithful reissues and contemporary interpretations of archival designs.
+            </div>
+
+            <img id="medium-img-left" class="parallaxImage reveal-image" src="./images/designpulse_florence_portrait.jpg">
+
+            <div id="reveal-callout" class="callout-text-right">
+                Knoll Textiles 1945-2010, designed by Irma Boom, is a comprehensive study of images, essays, and designer biographies highlighting the brand’s history that was published in conjunction with the Bard Graduate Center’s 2011 exhibition of the same name.
+            
+            </div>
+
+            <div class="slick-carousel">
+                <div>
+            <img id="left-half-img" class="parallaxImage reveal-image" src="./images/Knoll_Front__67877.jpg">
+            <div style="width: 64%; display: inline-flex;">
+            <p id="carousel-caption"><em>Knoll Textiles, 1945-2010</em> is the first comprehensive study devoted to a leading contributor to modern textile design. </p>
+            <div id="arrows" class="slick-controls-two">
+                <button class="prevarrow">←</button>
+                <button class="nextarrow">→</button>
+                </div>
+            </div>
+            </div>
+            <div>
+                <img id="left-half-img" class="parallaxImage reveal-image" src="./images/Knoll_Interior3__56387.jpg">
+                <div style="width: 64%; display: inline-flex;">
+                <p id="carousel-caption"><em>Knoll Textiles, 1945-2010</em> is the first comprehensive study devoted to a leading contributor to modern textile design. </p>
+                <div id="arrows" class="slick-controls-two">
+                    <button class="prevarrow">←</button>
+                    <button class="nextarrow">→</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+             
+            <div id="reveal-callout" class="callout-text-right" style="margin-top: 400px;">
+                “True colors, interesting textures, and serviceability are three qualities which have distinguished the Knoll Textiles collection from the beginning.” <br><br>– Florence Knoll 
+                </div>
+    
     
         </div>
+
+
+
+
+
+
 
         <footer class="container footer-content social">
             <div class="footer-links">
@@ -623,12 +827,46 @@
         <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
 
         
-<script>
 
-ScrollReveal().reveal('#first-callout', {
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+<script>
+gsap.registerPlugin(ScrollTrigger);
+gsap.to("#horizontal-img-scroll", {
+    xPercent: -280,
+    x: () => innerWidth,
+    ease: "sine",
+    scrollTrigger: {
+        trigger:"#horizontal-img-scroll",
+        start: "center center",
+        end: () => innerWidth * 10,
+        scrub: true,
+        pin: true,
+        invalidateOnRefresh: true,
+        anticipatePin: 1
+    }
+});
+gsap.to("#horizontal-img-scroll-two", {
+    xPercent: -322,
+    x: () => innerWidth,
+    ease: "sine",
+    scrollTrigger: {
+        trigger:"#horizontal-img-scroll-two",
+        start: "center center",
+        end: () => innerWidth * 25,
+        scrub: true,
+        pin: true,
+        invalidateOnRefresh: true,
+        anticipatePin: 1
+    }
+});
+    
+
+ScrollReveal().reveal('#reveal-callout', {
      duration: 3000
     });
-ScrollReveal().reveal('#second-callout', {
+ScrollReveal().reveal('.reveal-image', {
      duration: 3000
     });
 
@@ -676,11 +914,25 @@ new ScrollMagic.Scene({
   .setTween(animationtwo)
   .addTo(controller);
 
+  $('.anni-slick').slick({
+  infinite: true,
+  slidesToShow: 1, // Shows a three slides at a time
+  slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+  arrows: true, // Adds arrows to sides of slider
+nextArrow: '.anni-nextarrow',
+prevArrow: '.anni-prevarrow',
+  dots: false, // Adds the dots on the bottom
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+
+
   $('.slick-carousel').slick({
   infinite: true,
   slidesToShow: 1, // Shows a three slides at a time
   slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
-  arrows: false, // Adds arrows to sides of slider
+  arrows: true, // Adds arrows to sides of slider
 nextArrow: '.nextarrow',
 prevArrow: '.prevarrow',
   dots: false, // Adds the dots on the bottom
